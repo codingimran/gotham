@@ -339,6 +339,15 @@ aside.right-sidebar {
   top: 8px;
   z-index: 100;
 }
+
+.calendar-widget ul {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-widget li {
+  list-style: none;
+}
 /* ======= Footer ======= */
 
 .page-footer {
